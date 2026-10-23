@@ -1,30 +1,32 @@
 # Student Marks Data Analysis with Python
 
 ## About This Project
-This is my second Python project as a BSc Statistics and Mathematics student. It analyzes a sample dataset of student marks using basic Python operations.
+This project analyzes a sample dataset of student marks using Python and descriptive statistics. It is part of my learning journey as a BSc Statistics and Mathematics student exploring Data Science.
 
 ## Objectives
-- Calculate the average mark.
+- Calculate mean and median.
 - Find the highest and lowest marks.
-- Count students passing and below the passing mark.
-- Calculate the pass rate.
-- Summarize the results clearly.
+- Calculate range, sample variance, and sample standard deviation.
+- Count passing and below-passing marks.
+- Calculate the pass percentage.
 
 ## Dataset
-The project uses the following sample marks:
-
 `[78, 85, 62, 90, 56, 73, 88, 45, 69, 94]`
 
-**Note:** These are example values for learning, not real student records. A mark of 40 or above is treated as a pass for this exercise.
+This is a fictional practice dataset. A mark of 40 or above is considered a pass for this project.
 
 ## Results
 
 | Statistic | Result |
 |---|---:|
-| Total students | 10 |
-| Average mark | 74.0 |
+| Number of students | 10 |
+| Mean | 74.0 |
+| Median | 75.5 |
 | Highest mark | 94 |
 | Lowest mark | 45 |
+| Range | 49 |
+| Sample variance | 240.0 |
+| Sample standard deviation | 15.4919 |
 | Students passed | 10 |
 | Students below passing mark | 0 |
 | Pass rate | 100% |
@@ -32,21 +34,22 @@ The project uses the following sample marks:
 ## Tools Used
 - Python 3.13
 - Python IDLE
+- Python `statistics` module
 
 ## How to Run
-1. Download `student_marks_analysis.py` from this repository.
+1. Download `student_marks_analysis.py`.
 2. Open it in Python IDLE.
 3. Select **Run → Run Module**.
 
 ## What I Learned
-- Storing data in Python lists.
-- Using `sum()` and `len()` to calculate an average.
-- Using `max()` and `min()` to find extreme values.
-- Using conditions to count passing marks.
-- Calculating a percentage and presenting a summary.
+- Working with Python lists.
+- Calculating descriptive statistics.
+- Using functions and conditional expressions.
+- Counting values that meet a condition.
+- Calculating a percentage and presenting results.
 
 ## Project Status
 Completed — first version.
 
 ## About Me
-I am a BSc Statistics and Mathematics student learning Python and exploring Data Science.
+I am a BSc Statistics and Mathematics student learning Python and building a Data Science portfolio.
